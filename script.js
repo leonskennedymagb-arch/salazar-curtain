@@ -189,4 +189,5 @@
   // Small local date stamp; no network request is made.
   const now = new Date();
   $("date-stamp").textContent = `ARCHIVE DATE / ${now.toLocaleDateString("pt-BR")}`;
-})();
+   $("quiz-continue").addEventListener("click", () => showScreen("files"));
+  })();
